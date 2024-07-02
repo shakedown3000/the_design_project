@@ -1,0 +1,183 @@
+/* Universal Selektor */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Allgemein CSS */
+
+html {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-shadow: #00000029 1px 1px 2pc;
+  background-color: white;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../images/ilustracion1.png);
+  background-position: 100% 0;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#logo {
+  margin-left: 5vw;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo {
+  padding-top: 10vh;
+}
+#logo p:last-of-type {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+.how_to {
+  width: 30vw;
+  height: 40vh;
+  margin-top: 30vh;
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.how_to p:first-of-type {
+  padding-top: 1vh;
+}
+
+.how_to p:last-of-type {
+  margin-top: auto;
+  font-weight: 500;
+  color: #ff3571;
+}
+
+.hero img {
+  width: 50%;
+  top: 5%;
+  right: 5%;
+  z-index: 1;
+  position: absolute;
+}
+
+/* Gallery */
+
+.gallery {
+  margin-bottom: 10vh;
+}
+
+.gallery img {
+  width: 100%;
+  padding: 1vw;
+}
+
+/* Idea Section */
+
+.idea {
+  margin-bottom: 10vh;
+}
+
+.need {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10vh;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.need h2 {
+  font-size: 38px;
+  width: 20vw;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.challenge {
+  font-size: 38px;
+  margin: 10vh 10vw;
+  width: 50%;
+}
+
+.idea p {
+  width: 20vw;
+  line-height: 1.8em;
+}
+
+.steps {
+  margin: 0 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 70%;
+  gap: 2em;
+}
+
+.steps div {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 1 fr 3fr;
+  margin-bottom: 3vh;
+}
+
+.steps img {
+  margin-top: auto;
+  width: 2em;
+  grid-column: 1;
+}
+
+.steps h3 {
+  margin-top: auto;
+  grid-column: 2 / span 1;
+}
+
+.steps p {
+  width: 100%;
+  grid-column: 2;
+  grid-row: 2 / span 1;
+}
+
+footer {
+  text-align: center;
+  height: 30vh;
+}
+
+button {
+  background-color: #ff3571;
+  border: none;
+  border-radius: 10px;
+  width: 10vw;
+  height: 5vh;
+  min-width: 10vw;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+button:hover {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(243, 29, 253, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  cursor: pointer;
+}
