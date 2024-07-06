@@ -20,8 +20,7 @@ This project focuses on practicing SCSS, a powerful CSS preprocessor that helps 
 
 ## Screenshots
 
-![Screenshot 1](./assets/screenshots/screenshot1.png)
-![Screenshot 2](./assets/screenshots/screenshot2.png)
+![Screenshot 1](./assets/images/Design_Project_Screenshot_1.png)
 
 ## Code Structure
 
@@ -40,3 +39,5 @@ The project is structured as follows:
    cd the_design_project
 
 3. Open `index.html` in your web browser to view the project.
+
+4. ![Screenshot 2](./assets/images/Design_Project_Screenshot_2.png)
