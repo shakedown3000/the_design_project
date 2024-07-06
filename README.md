@@ -39,5 +39,3 @@ The project is structured as follows:
    cd the_design_project
 
 3. Open `index.html` in your web browser to view the project.
-
-4. ![Screenshot 2](./assets/images/Design_Project_Screenshot_2.png)
